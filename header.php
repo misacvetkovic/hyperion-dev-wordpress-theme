@@ -21,13 +21,17 @@
 <body <?php body_class(); ?>>
 
 	<header class="site-header" id="header">
+
 		<div class="top-header">
 			
-		</div>
+		</div><!--/.top-header-->
+
 		<div class="site-brand">
 			
-		</div>
+		</div><!--/.site-brand-->
+
 		<div class="header-nav">
 			
-		</div>
+		</div><!--/.header-nav-->
+		
 	</header><!--/#header-->
