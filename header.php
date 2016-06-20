@@ -20,14 +20,14 @@
 
 <body <?php body_class(); ?>>
 
-  <header class="site-header" id="header">
-    <div class="top-header">
-      
-    </div>
-    <div class="site-brand">
-      
-    </div>
-    <div class="header-nav">
-      
-    </div>
-  </header><!--/#header-->
+	<header class="site-header" id="header">
+		<div class="top-header">
+			
+		</div>
+		<div class="site-brand">
+			
+		</div>
+		<div class="header-nav">
+			
+		</div>
+	</header><!--/#header-->
