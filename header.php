@@ -23,7 +23,19 @@
 	<header class="site-header" id="header">
 
 		<div class="top-header">
-			
+
+			<?php if ( has_nav_menu( 'social' ) ) : ?>
+				<nav class="social-nav">
+				<?php
+					// Social links menu.
+					wp_nav_menu( array(
+						'theme_location'	=>	'social',
+						'menu_id'					=>	'social-menu'
+					) );
+				?>
+				</nav><!--/.social-navigation-->
+			<?php endif; ?>
+
 		</div><!--/.top-header-->
 
 		<div class="site-brand">
@@ -31,7 +43,19 @@
 		</div><!--/.site-brand-->
 
 		<div class="header-nav">
-			
+
+			<?php if ( has_nav_menu( 'primary' ) ) : ?>
+				<nav class="primary-nav">
+				<?php 
+					wp_nav_menu( array( 
+						'theme_location'	=>	'primary',
+						'menu_id'					=>	'primary-menu' 
+					) ); 
+				?>
+				</nav><!--/.primary-nav-->
+			<?php endif; ?>
+
 		</div><!--/.header-nav-->
 		
 	</header><!--/#header-->
+	
