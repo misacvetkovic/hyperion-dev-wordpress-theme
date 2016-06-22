@@ -39,7 +39,7 @@
 		</div><!--/.top-header-->
 
 		<div class="site-brand">
-			
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 		</div><!--/.site-brand-->
 
 		<div class="header-nav">
