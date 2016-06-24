@@ -29,8 +29,8 @@
 				<?php
 					// Social links menu.
 					wp_nav_menu( array(
-						'theme_location'	=>	'social',
-						'menu_id'					=>	'social-menu'
+						'theme_location'  =>  'social',
+						'menu_id'         =>  'social-menu'
 					) );
 				?>
 				</nav><!--/.social-navigation-->
@@ -48,8 +48,8 @@
 				<nav class="primary-nav">
 				<?php 
 					wp_nav_menu( array( 
-						'theme_location'	=>	'primary',
-						'menu_id'					=>	'primary-menu' 
+						'theme_location'  =>  'primary',
+						'menu_id'         =>  'primary-menu' 
 					) ); 
 				?>
 				</nav><!--/.primary-nav-->
