@@ -25,7 +25,7 @@
 
 		<div class="site-info">
 
-			<p><?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'hyperion' ), 'Hyperion', '<a href="http://misacvetkovic.com">Misa Cvetkovic</a>' ); ?></p>
+			<p><?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'hyperion' ), 'Hyperion', '<a href="http://heyiammisa.com">Misa Cvetkovic</a>' ); ?></p>
 			<p>&copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'hyperion' ); ?></p>
 
 		</div><!--/.site-info-->
